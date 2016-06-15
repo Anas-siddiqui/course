@@ -29,8 +29,11 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
+  
+    float: left;
   margin-top: 0;
-  margin-bottom: 0;
+    
+
   line-height: .75;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -116,7 +119,7 @@ body {
 /* END FOOTER */
 
 #main-content{
-    height: 1000px;
+    height: 1500px;
 }
 
 /* HOME PAGE */
@@ -197,16 +200,27 @@ body {
     background: url('../images/jumbotron_1200.jpg') no-repeat;
     height: 675px;
   }
+    .navbar-brand h1 { /* Restaurant name */
+    margin-left: -90px
+   
+  }
+    
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
- 
+ .navbar-brand h1 { /* Restaurant name */
+    margin-left: -40px
+   
+  }
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  
+  .navbar-brand h1 { /* Restaurant name */
+    margin-left: -90px
+   
+  }
 }
 
 /********** Extra small devices only **********/
